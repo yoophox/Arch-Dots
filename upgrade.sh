@@ -2,7 +2,7 @@
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
 # for Semi-Manual upgrading your system.
 # NOTE: requires rsync 
-# test sync by me
+# ******************test sync by me*******************
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
 ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
