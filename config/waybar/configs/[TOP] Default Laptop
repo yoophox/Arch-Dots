@@ -22,11 +22,11 @@
 "margin-right": 8,
 
 "modules-left": [
-	"custom/separator#blank",
-	"custom/cava_mviz",
-	"custom/separator#blank",
-	"custom/playerctl",
-	"custom/separator#blank_2",
+	//"custom/separator#blank",
+	//"custom/cava_mviz",
+	//"custom/separator#blank",
+	//"custom/playerctl",
+	//"custom/separator#blank_2",
 	"hyprland/window",
 	],
 
@@ -38,10 +38,10 @@
 	"hyprland/workspaces#rw",
 	"clock",
 	"custom/separator#dot-line",
-	"custom/weather",
-	"custom/separator#dot-line",
+	/*"custom/separator#dot-line",
 	"idle_inhibitor",	
-	"custom/hint",	
+	"custom/hint",*/	
+	"custom/weather",
 	],
 
 "modules-right": [

@@ -1,0 +1,11 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("create"
+ (filename . "~/@working/angular/packages/core/src/render3/component_ref.ts")
+ (front-context-string . "createDirectives")
+ (rear-context-string . "ectives\n        ")
+ (position . 12295)
+ (last-modified 26959 32255 3081 986000))
+)

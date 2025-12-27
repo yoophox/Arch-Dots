@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : Anders Bach Nielsen <abachn@abachn.net>
+# name: <ng-container>...</ng-container>
+# key: ngc
+# --
+<ng-container>$1</ng-container>

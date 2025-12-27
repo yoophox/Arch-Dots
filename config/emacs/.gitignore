@@ -1,0 +1,11 @@
+.cache
+.lsp-session
+org-persist
+eln-cache
+packages
+places
+tmp
+tree-sitter
+elpa
+.custom.el
+auto-save-list

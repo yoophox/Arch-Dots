@@ -41,3 +41,38 @@ htmlcov/
 .vscode/
 *.swp
 *.swo
+
+# key file
+.ssh
+
+# ingnore all files in config dir
+config/*
+
+# track config/emacs
+!config/emacs
+config/emcas/*
+!config/emacs/addons/
+!config/emacs/early-init.el
+!config/emacs/.init/
+!config/emacs/init.el
+!config/emacs/README.md
+!config/emacs/snippets/
+
+# track config/others*
+!config/Kvantum
+!config/ags
+!config/btop
+!config/cava
+!config/fastfetch
+!config/hypr
+!config/kitty
+!config/nvim
+!config/qt5ct
+!config/qt6ct
+!config/quickshell
+!config/rofi
+!config/swappy
+!config/swaync
+!config/wallust
+!config/waybar
+!config/wlogout

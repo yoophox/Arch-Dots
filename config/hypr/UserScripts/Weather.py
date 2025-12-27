@@ -63,8 +63,8 @@ CACHE_TTL_SECONDS = int(os.getenv("WEATHER_CACHE_TTL", "300"))  # default 5 minu
 UNITS = os.getenv("WEATHER_UNITS", "metric").strip().lower()  # metric|imperial
 
 # Optional manual coordinates
-ENV_LAT = os.getenv("WEATHER_LAT")
-ENV_LON = os.getenv("WEATHER_LON")
+ENV_LAT = "34.10"#os.getenv("WEATHER_LAT")
+ENV_LON = "118.81"#os.getenv("WEATHER_LON")
 # Optional manual place override for tooltip (and optional forward geocoding)
 ENV_PLACE = os.getenv("WEATHER_PLACE")
 # Manual place name set inside this file. If set (non-empty), this takes top priority for display

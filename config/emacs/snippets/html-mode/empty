@@ -1,0 +1,5 @@
+# -*- mode:snippet -*-
+# name: <></>
+# key: vot
+# --
+<${1:tag}>${3:cont}</$1>

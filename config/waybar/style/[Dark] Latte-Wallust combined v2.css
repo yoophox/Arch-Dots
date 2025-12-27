@@ -7,7 +7,7 @@
 @define-color lightgray  	#686868;
 @define-color darkgray   	#353535;
 
-@define-color transparent	rgba(1, 1, 1, 0.5);
+@define-color transparent	rgba(1, 1, 1, 0.0);
 @define-color teal-trans	rgba(1, 117, 84, 0.5);
 @define-color cyan			rgba(53, 140, 169, 1);
 
@@ -30,12 +30,13 @@
 }
 
 window#waybar {
-    background: @background;
+    /*background: @background;*/
+    background-color: transparent;
     border-radius:15px;
-	padding-top: 2px;
-	padding-bottom: 0px;
-	padding-right: 4px;
-	padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 tooltip {
@@ -53,7 +54,7 @@ tooltip {
     border-bottom: 2px solid @border-color;
     font-weight: bold;
     font-style: normal;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 #taskbar button,   
