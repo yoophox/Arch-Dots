@@ -50,13 +50,13 @@ config/*
 
 # track config/emacs
 !config/emacs
-config/emcas/*
+config/emacs/*
 !config/emacs/addons/
-!config/emacs/early-init.el
+!config/emacs/snippets/
 !config/emacs/.init/
+!config/emacs/early-init.el
 !config/emacs/init.el
 !config/emacs/README.md
-!config/emacs/snippets/
 
 # track config/others*
 !config/Kvantum
