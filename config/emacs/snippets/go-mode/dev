@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: defer e.Return()
-# key: dev
-# --
-defer e.Return()

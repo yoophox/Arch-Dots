@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: Doctype HTML 5
-# group : meta
-# key: dh5
-# --
-<!DOCTYPE html>

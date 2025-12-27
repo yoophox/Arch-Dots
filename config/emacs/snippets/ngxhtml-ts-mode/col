@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# contributor : Anders Bach Nielsen <abachn@abachn.net>
-# name: ngComponentOutlet
-# key: col
-# --
-<ng-container *ngComponentOutlet="${1:cmpVar}"></ng-container>

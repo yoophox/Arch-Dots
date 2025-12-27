@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: type to type
-# key: ttype
-# --
-type ${1:newtype}  ${4:type}
