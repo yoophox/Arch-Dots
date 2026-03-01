@@ -1,0 +1,9 @@
+# -*- mode:snippet -*-
+# name:if-else
+# key: ife
+# --
+if (${1:exp}) {
+  ${2:cont}
+} @else {
+  ${3:cont}
+}

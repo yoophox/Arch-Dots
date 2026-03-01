@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: timeout ctx 
+# key: cto
+# --
+ctx, cancel := context.WithTimeout(context.Background(), cfg.SysTimeout * time.Second)
+defer cancel()

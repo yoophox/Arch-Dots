@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : Anders Bach Nielsen <abachn@abachn.net>
+# name: <ng-template>...</ng-template>
+# key: ngt
+# --
+<ng-template ${0:#var}>$1</ng-template>
