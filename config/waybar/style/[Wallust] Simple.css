@@ -110,6 +110,10 @@ tooltip {
 #wireplumber,
 #workspaces,
 #custom-backlight,
+<<<<<<< HEAD
+=======
+#custom-nightlight,
+>>>>>>> upstream/main
 #custom-browser,
 #custom-cava_mviz,
 #custom-cycle_wall,
@@ -118,6 +122,10 @@ tooltip {
 #custom-keybinds,
 #custom-keyboard,
 #custom-light_dark,
+<<<<<<< HEAD
+=======
+#custom-nightlight,
+>>>>>>> upstream/main
 #custom-lock,
 #custom-hint,
 #custom-hypridle,
@@ -164,6 +172,10 @@ tooltip {
 #custom-hypridle.notactive,
 #idle_inhibitor.activated {
 	color: #39FF14;
+<<<<<<< HEAD
+=======
+    border-bottom: 8px solid rgba(0, 0, 0, 0.2);
+>>>>>>> upstream/main
 }
 
 #pulseaudio.muted {

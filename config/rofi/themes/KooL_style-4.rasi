@@ -22,12 +22,13 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    background-alt: @color1;
+    background-alt: @color0;
+    /* selected uses color12, active uses color11 (match other working styles) */
     selected:       @color12;
     active:         @color11;
-    urgent:         #F7768E;
+    urgent:         @color13;
     
-    border-color:                @color11;
+    border-color:                @active;
     handle-color:                @selected;
     background-color:            @background;
     foreground-color:            @foreground;
@@ -38,12 +39,13 @@ configuration {
     urgent-foreground:           @background;
     active-background:           @active;
     active-foreground:           @background;
+    /* force selection to use the selected accent, not imported selected-* values */
     selected-normal-background:  @selected;
     selected-normal-foreground:  @background;
-    selected-urgent-background:  @active;
+    selected-urgent-background:  @selected;
     selected-urgent-foreground:  @background;
-    selected-active-background:  @urgent;
-    selected-active-foreground:  @color12;
+    selected-active-background:  @selected;
+    selected-active-foreground:  @background;
     alternate-normal-background: @background;
     alternate-normal-foreground: @foreground;
     alternate-urgent-background: @urgent;
@@ -229,6 +231,14 @@ element selected.urgent {
 element selected.active {
     background-color:            @selected-active-background;
     text-color:                  @selected-active-foreground;
+}
+element selected.urgent {
+    background-color:            @selected;
+    text-color:                  @background;
+}
+element selected.active {
+    background-color:            @selected;
+    text-color:                  @background;
 }
 element alternate.normal {
     background-color:            @alternate-normal-background;

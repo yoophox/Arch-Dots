@@ -4,6 +4,12 @@
 [![ua](https://img.shields.io/badge/lang-ua-white.svg)](https://github.com/JaKooLit/Hyprland-Dots/blob/main/i18n/README.ua.md)
 [![de](https://img.shields.io/badge/lang-de-magenta.svg)](https://github.com/JaKooLit/Hyprland-Dots/blob/main/i18n/README.de.md)
 
+
+## IMPORTANT! Beginning of March 2026, This project will be archived and it will be maintained by Dwilliams
+- https://github.com/LinuxBeginnings
+- https://github.com/LinuxBeginnings/Hyprland-Dots
+
+
 <h3 align="center">
 <img align="center" width="80%" src=https://github.com/user-attachments/assets/bc18bd4d-944b-4d5f-a119-7578fa38f9b4 />
 </h3>
@@ -20,6 +26,7 @@
   <a href="https://github.com/JaKooLit/Hyprland-Dots/discussions"><kbd> <br> Discussions <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
   <a href="https://discord.gg/kool-tech-world"><kbd> <br> Discord <br> </kbd></a>
+  <a href="https://discord.gg/RZJgC7KAKm"><kbd> <br> Discord <br> </kbd></a>
 </div><br>
 
 <div align="center">
@@ -62,8 +69,13 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Hyprland-Dots/main/Distro-Hyprland.sh)
 ```
 
+<<<<<<< HEAD
 - you can now use above command to automatically clone the Distro-Hyprland install scripts below
 - it will clone the install scripts and start the `install.sh` 😎
+=======
+- You can use the above command to automatically clone the `Distro-Hyprland` install scripts
+- It will clone the install script and start the `install.sh` 😎
+>>>>>>> upstream/main
 
 ### 👁️‍🗨️ My Hyprland install Scripts 👁️‍🗨️
 
@@ -89,7 +101,11 @@ sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Hyprland-Dots/main/Distr
 ### 🪧 Attention 🪧
 
 - This repo does NOT contain or will NOT install any packages. These are only pre-configured-hyprland configs or dotfiles
+<<<<<<< HEAD
 - refer to install scripts what packages needed to install... but atleast, Hyprland packages is needed 😏😏😏 duh!!
+=======
+- refer to install scripts what packages needed to install... but at least, Hyprland packages are required
+>>>>>>> upstream/main
 - This repo will be pulled by the Distro-Hyprland install scripts above if you opt to download pre-configured dots
 
 ### 👀 Screenshots 👀
@@ -101,16 +117,30 @@ sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Hyprland-Dots/main/Distr
 - To easily track changes, I will be updating the [CHANGELOGS](https://github.com/JaKooLit/Hyprland-Dots/wiki/Changelogs) Screenshots will be included if worth mentioning the changes!
 
 > [!NOTE]
-> Kindly note that by defeault, Kools Dots are adjusted / configured for 2k (1440p) display without scaling.
+> Kindly note that by default, Kools Dots are adjusted / configured for 2k (1440p) display without scaling.
 
 ### 💥 Copying / Installation / Update instructions 💥
 
 - [`MORE INFO HERE`](https://github.com/JaKooLit/Hyprland-Dots/wiki/Install_&_Update)
   > [!Note]
+<<<<<<< HEAD
   > The auto copy script "copy.sh" will create backups of intended directories to be copied. However, still a good idea to manually backup just incase script failed to backup!
 - clone this repo by using git. Change directory, make executable and run the script
 
 > to download from Master branch
+=======
+  > The auto copy script `copy.sh` will create backups of intended directories to be copied. 
+  > However, it's still a good idea to manually backup just incase script fails to backup your configuration. 
+  > If you already have a hyprland configuration, uninstall it first, or create a new user, and install it with that user
+  
+- Clone this repo by using `git`. 
+- Change directory, i.e. `cd Arch-Hyprland`  
+- Make `install.sh` executable  `chmod +x ./install.sh` 
+- Run the script `./install.sh` 
+
+> To download from Master branch
+> Note: Ubuntu is exception, it has version specific branches
+>>>>>>> upstream/main
 
 ```bash
 git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots.git
@@ -118,7 +148,7 @@ cd Hyprland-Dots
 ```
 
 > to download from Development branch (development and testing)
-> Not recommeded for non-testing systems 
+> Not recommeded for non-testing systems
 
 ```bash
 git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots.git -b development
@@ -158,6 +188,7 @@ chmod +x upgrade.sh
 - Ubuntu 24.04/25.10
   - We are now using a PPA to get more current versions of Hyprland.
   - So the current version of these Dotfiles are compatible if you updated to the PPA based configuration.
+<<<<<<< HEAD
     
 #### ⚠️⚠️⚠️ ATTENTION - BACKUPS CREATED by SCRIPT
 
@@ -165,6 +196,15 @@ chmod +x upgrade.sh
 > copy.sh, release.sh and even upgrade.sh creates a backup!
 > Kindly investigate manually contents on your $HOME/.config
 > Delete manually all the backups which you dont need
+=======
+
+#### ⚠️⚠️⚠️ ATTENTION - BACKUPS CREATED by SCRIPT
+
+> [!CAUTION]
+> `copy.sh`, `release.sh` and even `upgrade.sh` creates a backup!
+> Kindly investigate manually contents on your `$HOME/.config`
+> Delete manually any backups which you dont want.
+>>>>>>> upstream/main
 
 #### 🛎️ a small note on wallpapers
 
@@ -172,7 +212,8 @@ chmod +x upgrade.sh
 
 #### ⚠️⚠️⚠️ A MUST! after copying / Installing these dots
 
-- Press SUPER W and set a wallpaper. This is also to initiate wallust for waybar, kitty (tty) and rofi themes. However, If you use the copy.sh or the release.sh, there will be a preset initial Wallpaper and you dont have to do this
+- Press `SUPER W` and set a wallpaper. This is also to initiate wallust for waybar, kitty (tty) and rofi themes.
+- However, If you use the `copy.sh` or the `release.sh`, there will be a preset initial Wallpaper and you dont have to do this
 
 - Nvidia Owners. Make sure to edit your `~/.config/hypr/UserConfigs/ENVariables.conf` (highly recommended).
 
@@ -197,11 +238,13 @@ chmod +x upgrade.sh
 
 #### 🙏 Special request
 
-- If you have improvements on the dotfiles or configuration, feel free to submit a PR for improvement. I always welcome improvements as I am also just learning just like you guys!
+- If you have improvements on the dotfiles or configuration, feel free to submit a PR for improvement.
+- I always welcome improvements as I am also just learning just like you guys!
 
 #### ✍️ Contributing
 
 - Want to contribute? Click [`HERE`](https://github.com/JaKooLit/Hyprland-Dots/blob/main/CONTRIBUTING.md) for a guide how to contribute
+>  Thanks to all who have contributed code, or support on the Discord server. You efforts are greatly appreciated 
 
 #### 🤷‍♂️ TO DO!
 
@@ -234,3 +277,8 @@ Or you can donate cryto on my btc wallet :)
 ## 🫰 Thank you for the stars 🩷
 
 [![Stargazers over time](https://starchart.cc/JaKooLit/Hyprland-Dots.svg?variant=adaptive)](https://starchart.cc/JaKooLit/Hyprland-Dots)
+
+
+### Document translations
+
+- Spanish: [Código de Conducta](./CODE_OF_CONDUCT.es.md) · [Guía de mensajes de commit](./COMMIT_MESSAGE_GUIDELINES.es.md) · [Guía de contribución](./CONTRIBUTING.es.md)
